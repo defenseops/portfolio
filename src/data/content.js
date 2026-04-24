@@ -8,52 +8,52 @@ export const nav = {
 }
 
 export const hero = {
-  badge: { en: 'Available for work', ru: 'Открыт к работе' },
+  badge: { en: 'Open to opportunities', ru: 'Открыт к предложениям' },
   phrases: {
-    en: ['Frontend Developer', 'React Specialist', 'UI/UX Enthusiast', 'Full Stack Ready'],
-    ru: ['Frontend-разработчик', 'React-специалист', 'UI/UX-энтузиаст', 'Full Stack разработчик'],
+    en: ['Frontend Developer', 'React Engineer', 'Full Stack Developer', 'UI Architect'],
+    ru: ['Frontend-разработчик', 'React-инженер', 'Full Stack разработчик', 'UI-архитектор'],
   },
   desc: {
-    en: 'I craft fast, beautiful, and scalable web experiences. 4 years turning ideas into pixel-perfect products.',
-    ru: 'Создаю быстрые, красивые и масштабируемые веб-продукты. 4 года превращаю идеи в пиксельно-точные решения.',
+    en: 'I engineer high-performance web products that users love. 4 years of shipping scalable frontends — from concept to production.',
+    ru: 'Создаю высоконагруженные веб-продукты, которыми приятно пользоваться. 4 года коммерческого опыта — от концепции до продакшена.',
   },
-  cta1: { en: 'View Projects',  ru: 'Посмотреть работы' },
-  cta2: { en: 'Get in Touch',   ru: 'Связаться'         },
+  cta1: { en: 'View My Work',  ru: 'Смотреть проекты' },
+  cta2: { en: 'Let\'s Talk',   ru: 'Связаться'        },
   stats: [
-    { num: '4+',  en: 'Years Experience', ru: 'Лет опыта'   },
-    { num: '30+', en: 'Projects Done',    ru: 'Проектов'    },
-    { num: '15+', en: 'Technologies',     ru: 'Технологий'  },
+    { num: '4+',  en: 'Years in Production', ru: 'Года в продакшене' },
+    { num: '30+', en: 'Projects Shipped',    ru: 'Проектов сдано'   },
+    { num: '15+', en: 'Technologies',        ru: 'Технологий'       },
   ],
 }
 
 export const about = {
-  tag:    { en: 'Who I am',          ru: 'Обо мне'          },
-  titleA: { en: 'Passionate about',  ru: 'Увлечён'          },
-  titleB: { en: 'building great web.', ru: 'созданием веба.' },
+  tag:    { en: 'About me',             ru: 'Обо мне'              },
+  titleA: { en: 'Engineering',          ru: 'Создаю'               },
+  titleB: { en: 'exceptional products.', ru: 'исключительные продукты.' },
   p1: {
-    en: "Hi, I'm Yaroslav — a Frontend Developer with 4+ years of experience building modern web applications. I specialize in the React ecosystem and love crafting smooth, accessible user interfaces.",
-    ru: 'Привет, я Ярослав — Frontend-разработчик с 4+ годами опыта создания современных веб-приложений. Специализируюсь на экосистеме React и люблю создавать плавные, доступные интерфейсы.',
+    en: "I'm Yaroslav — a Frontend Engineer with 4+ years of commercial experience building scalable web applications. My core stack is React and TypeScript, and I obsess over clean architecture and smooth user experience.",
+    ru: 'Я Ярослав — Frontend-инженер с 4+ годами коммерческого опыта разработки масштабируемых веб-приложений. Основной стек — React и TypeScript. Фокусируюсь на чистой архитектуре и безупречном пользовательском опыте.',
   },
   p2: {
-    en: "Beyond the frontend, I'm confident with backend technologies: Node.js, Express, REST APIs, databases. I enjoy the full picture — from design system to deployment.",
-    ru: 'Помимо фронта, уверенно работаю с backend: Node.js, Express, REST API, базы данных. Мне нравится видеть полную картину — от дизайн-системы до деплоя.',
+    en: 'I move comfortably across the full stack: Node.js, REST APIs, databases, deployment. I can own a feature end-to-end — and I enjoy doing it.',
+    ru: 'Свободно работаю по всему стеку: Node.js, REST API, базы данных, деплой. Готов вести фичу от технического задания до релиза — и мне это нравится.',
   },
   p3: {
-    en: 'I care deeply about code quality, performance, and developer experience. Every project I take on gets my full attention to detail.',
-    ru: 'Мне важны качество кода, производительность и Developer Experience. В каждый проект вкладываю максимальное внимание к деталям.',
+    en: 'Code quality and performance are non-negotiable for me. I treat every codebase I touch as if it will be maintained for years — because it will.',
+    ru: 'Качество кода и производительность — не опции, а стандарт. Я отношусь к каждому проекту так, как будто его будут сопровождать годами — потому что так и есть.',
   },
   cards: [
-    { icon: '⚡', en: 'Performance First', ru: 'Производительность', descEn: 'Optimized builds, lazy loading, fast load times.', descRu: 'Оптимизированные сборки, lazy loading, быстрая загрузка.' },
-    { icon: '🎨', en: 'Pixel Perfect',     ru: 'Пиксель в пиксель',  descEn: 'Faithful to designs with responsive layouts.',          descRu: 'Точное воплощение дизайна с адаптивной вёрсткой.'    },
-    { icon: '🔧', en: 'Clean Code',        ru: 'Чистый код',         descEn: 'Readable, maintainable, and well-structured.',          descRu: 'Читаемый, поддерживаемый и структурированный.'        },
-    { icon: '🚀', en: 'Full Stack Ready',  ru: 'Full Stack',          descEn: 'Comfortable across the entire stack.',                  descRu: 'Уверенно работаю по всему стеку.'                     },
+    { icon: '⚡', en: 'Performance-Driven',  ru: 'Производительность',   descEn: 'Core Web Vitals, lazy loading, optimized bundles.',      descRu: 'Core Web Vitals, lazy loading, оптимизированные сборки.' },
+    { icon: '🎨', en: 'Pixel Precision',     ru: 'Точность до пикселя',  descEn: 'Design-to-code accuracy with fully responsive layouts.',  descRu: 'Точное воспроизведение макетов с адаптивной вёрсткой.'   },
+    { icon: '🔧', en: 'Scalable Code',       ru: 'Масштабируемый код',   descEn: 'SOLID principles, clean architecture, easy to extend.',   descRu: 'SOLID, чистая архитектура, код который легко развивать.' },
+    { icon: '🚀', en: 'Full Stack Capable',  ru: 'Full Stack',           descEn: 'End-to-end ownership from UI to infrastructure.',         descRu: 'Полный цикл разработки — от UI до инфраструктуры.'       },
   ],
 }
 
 export const skills = {
-  tag:   { en: 'What I work with', ru: 'С чем работаю' },
+  tag:   { en: 'Tech Stack', ru: 'Технологии' },
   categories: [
-    { icon: '⚛️', en: 'Frontend Core',   ru: 'Основа Frontend',    tags: ['React', 'TypeScript', 'JavaScript', 'HTML5', 'CSS3', 'Next.js'] },
+    { icon: '⚛️', en: 'Frontend Core',   ru: 'Frontend Core',      tags: ['React', 'TypeScript', 'JavaScript', 'HTML5', 'CSS3', 'Next.js'] },
     { icon: '🎨', en: 'Styling & UI',    ru: 'Стилизация и UI',    tags: ['Tailwind CSS', 'Sass/SCSS', 'Styled Components', 'Framer Motion', 'MUI', 'Ant Design'] },
     { icon: '🗄️', en: 'State & Data',   ru: 'Состояние и данные', tags: ['Redux Toolkit', 'Zustand', 'React Query', 'GraphQL', 'REST API', 'Axios'] },
     { icon: '🖥️', en: 'Backend',        ru: 'Backend',            tags: ['Node.js', 'Express', 'NestJS', 'PostgreSQL', 'MongoDB', 'Prisma'] },
@@ -64,43 +64,43 @@ export const skills = {
 
 export const projects = [
   {
-    icon: '🛒',
-    en: 'E-Commerce Platform',    ru: 'E-Commerce Платформа',
-    descEn: 'Full-featured online store with cart, auth, payments integration and admin dashboard.',
-    descRu: 'Полноценный интернет-магазин с корзиной, авторизацией, оплатой и админ-панелью.',
-    stack: ['React', 'TypeScript', 'Node.js', 'PostgreSQL'],
-    github: '#', live: '#',
+    icon: '🛍️',
+    en: 'LORE — Clothing Store',       ru: 'LORE — Магазин одежды',
+    descEn: 'E-commerce platform for a timeless clothing brand. Product catalogue, cart, and seamless checkout experience.',
+    descRu: 'E-commerce платформа для бренда одежды. Каталог товаров, корзина и удобный процесс оформления заказа.',
+    stack: ['React', 'TypeScript', 'Tailwind CSS', 'Vercel'],
+    github: 'https://github.com/defenseops', live: 'https://lore-shop-eta.vercel.app/',
   },
   {
     icon: '📊',
-    en: 'Analytics Dashboard',   ru: 'Аналитический Дашборд',
-    descEn: 'Real-time data visualization dashboard with charts, filters, and export functionality.',
-    descRu: 'Дашборд с визуализацией данных в реальном времени, фильтрами и экспортом.',
-    stack: ['Next.js', 'Recharts', 'Tailwind', 'REST API'],
-    github: '#', live: '#',
+    en: 'HR Data System',             ru: 'HR Data System',
+    descEn: 'Enterprise BI platform that automates KPI and bonus calculations, cutting manual HR work across large organizations.',
+    descRu: 'BI-платформа для автоматизации расчёта KPI и бонусов в крупных компаниях. Интеграция с Oracle, SAP, 1C.',
+    stack: ['Next.js', 'FastAPI', 'PostgreSQL', 'Power BI'],
+    github: 'https://github.com/defenseops', live: 'https://hr-data-system.vercel.app/',
   },
   {
     icon: '💬',
-    en: 'Real-time Chat App',    ru: 'Чат в реальном времени',
-    descEn: 'Messenger with rooms, file sharing, notifications, and end-to-end encryption.',
-    descRu: 'Мессенджер с комнатами, файлами, уведомлениями и E2E-шифрованием.',
+    en: 'Real-time Messenger',        ru: 'Мессенджер',
+    descEn: 'WebSocket-based chat with rooms, file sharing, push notifications and end-to-end encryption.',
+    descRu: 'Чат на WebSocket с комнатами, файлами, push-уведомлениями и E2E-шифрованием.',
     stack: ['React', 'Socket.io', 'Node.js', 'MongoDB'],
-    github: '#', live: '#',
+    github: 'https://github.com/defenseops', live: '#',
   },
   {
     icon: '🎯',
-    en: 'Task Management SaaS',  ru: 'SaaS для задач',
-    descEn: 'Kanban board with drag-and-drop, team collaboration, and time tracking.',
-    descRu: 'Kanban-доска с drag-and-drop, командной работой и трекером времени.',
+    en: 'Project Management SaaS',    ru: 'SaaS для управления задачами',
+    descEn: 'Kanban board with drag-and-drop, team collaboration, role-based access, and time tracking.',
+    descRu: 'Kanban с drag-and-drop, командным доступом, разграничением ролей и трекером времени.',
     stack: ['React', 'Redux', 'NestJS', 'PostgreSQL'],
-    github: '#', live: '#',
+    github: 'https://github.com/defenseops', live: '#',
   },
 ]
 
 export const contact = {
-  tag:        { en: 'Get in touch',             ru: 'На связи'               },
-  title1:     { en: "Let's work",               ru: 'Давайте'                },
-  title2:     { en: 'together',                 ru: 'вместе'                 },
-  desc:       { en: 'Open to new opportunities, freelance projects, or just a friendly chat about tech.', ru: 'Открыт к новым возможностям, фриланс-проектам или просто пообщаться о технологиях.' },
-  emailLabel: { en: 'Or drop me an email directly', ru: 'Или напишите напрямую' },
+  tag:        { en: 'Contact',                        ru: 'Контакт'                      },
+  title1:     { en: "Let's build",                    ru: 'Создадим'                     },
+  title2:     { en: 'something great.',               ru: 'что-то крутое.'               },
+  desc:       { en: 'Available for full-time roles, freelance contracts, and interesting projects. If you have an idea — let\'s talk.', ru: 'Рассматриваю full-time позиции, фриланс-контракты и интересные проекты. Есть идея — давайте обсудим.' },
+  emailLabel: { en: 'Reach me directly', ru: 'Написать напрямую' },
 }
