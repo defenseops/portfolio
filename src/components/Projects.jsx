@@ -20,6 +20,22 @@ function ExternalIcon() {
   )
 }
 
+function PreviewImage({ url }) {
+  if (!url || url === '#') return null
+  const src = `https://api.microlink.io/?url=${encodeURIComponent(url)}&screenshot=true&meta=false&embed=screenshot.url`
+  return (
+    <div className="relative w-full h-40 rounded-xl overflow-hidden mb-5 border border-white/[0.07] group-hover:border-violet-500/30 transition-colors duration-300">
+      <img
+        src={src}
+        alt="Site preview"
+        className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
+        loading="lazy"
+      />
+      <div className="absolute inset-0 bg-gradient-to-t from-[#070711]/80 via-transparent to-transparent" />
+    </div>
+  )
+}
+
 export default function Projects() {
   const { lang } = useLang()
 
@@ -66,18 +82,26 @@ export default function Projects() {
                 <div className="flex gap-2">
                   <a
                     href={p.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="w-9 h-9 rounded-lg flex items-center justify-center border border-white/10 text-slate-500 hover:text-violet-400 hover:border-violet-500/50 hover:bg-violet-500/10 transition-all duration-200"
                   >
                     <GithubIcon />
                   </a>
-                  <a
-                    href={p.live}
-                    className="w-9 h-9 rounded-lg flex items-center justify-center border border-white/10 text-slate-500 hover:text-cyan-400 hover:border-cyan-500/50 hover:bg-cyan-500/10 transition-all duration-200"
-                  >
-                    <ExternalIcon />
-                  </a>
+                  {p.live !== '#' && (
+                    <a
+                      href={p.live}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-9 h-9 rounded-lg flex items-center justify-center border border-white/10 text-slate-500 hover:text-cyan-400 hover:border-cyan-500/50 hover:bg-cyan-500/10 transition-all duration-200"
+                    >
+                      <ExternalIcon />
+                    </a>
+                  )}
                 </div>
               </div>
+
+              <PreviewImage url={p.live} />
 
               <h3 className="font-bold text-white text-lg mb-2 relative z-10">
                 {lang === 'en' ? p.en : p.ru}
