@@ -88,12 +88,12 @@ export const projects = [
     github: 'https://github.com/defenseops', live: 'https://din-alksndr.vercel.app/',
   },
   {
-    icon: '🎯',
-    en: 'Project Management SaaS',    ru: 'SaaS для управления задачами',
-    descEn: 'Kanban board with drag-and-drop, team collaboration, role-based access, and time tracking.',
-    descRu: 'Kanban с drag-and-drop, командным доступом, разграничением ролей и трекером времени.',
-    stack: ['React', 'Redux', 'NestJS', 'PostgreSQL'],
-    github: 'https://github.com/defenseops', live: '#',
+    icon: '🚗',
+    en: 'CityDrive — Car Sharing',     ru: 'CityDrive — Каршеринг',
+    descEn: 'Car-sharing service platform with on-demand vehicle booking for urban residents.',
+    descRu: 'Платформа каршеринга с онлайн-бронированием автомобилей для городских жителей.',
+    stack: ['Next.js', 'Tailwind CSS', 'JavaScript', 'Docker'],
+    github: 'https://github.com/defenseops/CityDrivefront', live: 'https://city-drivefront.vercel.app/',
   },
 ]
 
