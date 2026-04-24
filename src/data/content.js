@@ -80,12 +80,12 @@ export const projects = [
     github: 'https://github.com/defenseops', live: 'https://hr-data-system.vercel.app/',
   },
   {
-    icon: '💬',
-    en: 'Real-time Messenger',        ru: 'Мессенджер',
-    descEn: 'WebSocket-based chat with rooms, file sharing, push notifications and end-to-end encryption.',
-    descRu: 'Чат на WebSocket с комнатами, файлами, push-уведомлениями и E2E-шифрованием.',
-    stack: ['React', 'Socket.io', 'Node.js', 'MongoDB'],
-    github: 'https://github.com/defenseops', live: '#',
+    icon: '🎤',
+    en: 'Alexander Din — MC Portfolio', ru: 'Александр Дин — Портфолио ведущего',
+    descEn: 'Personal portfolio site for a professional event host and MC. Clean, elegant design targeted at Russian-speaking clients.',
+    descRu: 'Портфолио профессионального ведущего мероприятий. Лаконичный дизайн, ориентированный на привлечение клиентов.',
+    stack: ['React', 'Tailwind CSS', 'Vercel'],
+    github: 'https://github.com/defenseops', live: 'https://din-alksndr.vercel.app/',
   },
   {
     icon: '🎯',
